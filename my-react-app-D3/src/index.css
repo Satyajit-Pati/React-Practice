@@ -1,0 +1,34 @@
+.counter-container{
+  background: linear-gradient(to right, #f06, #4a90e2);
+  border: 3px solid black;
+  border-radius: 5px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+.counter-container .count-display{
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 10px;
+}
+
+.counter-container .counter-button{
+  background-color: #0227a2; /* Green */
+  border: 2px solid black;
+  border-radius: 5px;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  color: rgb(136, 127, 127);
+}
+
+.counter-button:hover{
+  background-color: #0fce3c; /* Darker green */
+  color: white;
+}
